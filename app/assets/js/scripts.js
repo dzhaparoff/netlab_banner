@@ -1107,8 +1107,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     return Animation;
   }();
 
-  $(function () {
+  function ready() {
     var animation = new Animation();
     animation.play();
-  });
+  }
+
+  document.addEventListener("DOMContentLoaded", ready);
 })();

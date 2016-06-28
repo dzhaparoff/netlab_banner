@@ -37,7 +37,7 @@ gulp.task('css', function () {
 });
 
 gulp.task('js',function(){
-  gulp.src('src/js/**/*.js')    
+  gulp.src('src/js/**/*.js')
     .pipe(babel({
       presets: ['es2015']
     }))
