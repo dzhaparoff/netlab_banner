@@ -3,6 +3,8 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync'),
     autoprefixer = require('gulp-autoprefixer'),
     uglify = require('gulp-uglify'),
+    babel = require('gulp-babel'),
+    concat = require('gulp-concat'),
     jshint = require('gulp-jshint'),
     header  = require('gulp-header'),
     rename = require('gulp-rename'),
@@ -35,13 +37,14 @@ gulp.task('css', function () {
 });
 
 gulp.task('js',function(){
-  gulp.src('src/js/scripts.js')
-    .pipe(jshint('.jshintrc'))
+  gulp.src('src/js/**/*.js')    
+    .pipe(babel({
+      presets: ['es2015']
+    }))
+    .pipe(concat('scripts.js'))
     .pipe(jshint.reporter('default'))
-    .pipe(header(banner, { package : package }))
     .pipe(gulp.dest('app/assets/js'))
     .pipe(uglify())
-    .pipe(header(banner, { package : package }))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('app/assets/js'))
     .pipe(browserSync.reload({stream:true, once: true}));

@@ -1,3 +1,88 @@
-.main {
+.banner {
+  .logo-box {
+    width       : 100%;
+    padding-top : 25px;
+    text-align  : center;
 
+    .logo-01 {
+      width  : 180px;
+      height : 180px;
+    }
+  }
+
+  .company-name {
+    padding-top : 10px;
+    text-align  : center;
+
+    .text-logo {
+      width  : 196px;
+    }
+
+    .sub-name-text {
+      opacity: 0;
+      padding-top    : 10px;
+      color          : #858585;
+      font-family    : "Open Sans";
+      font-size      : 15px;
+      font-weight    : 300;
+      letter-spacing : 0.43em;
+    }
+  }
+
+  .ad-text {
+    padding-top : 80px;
+
+    ul {
+      margin     : 0px;
+      padding    : 0 0 0 45px;
+      list-style : none;
+
+      li {
+        color       : #ffffff;
+        font-family : "Open Sans";
+        font-size   : 20px;
+        font-weight : 400;
+        line-height : 2.5em;
+
+        span {
+          position: relative;
+           & > span {
+            opacity: 0;
+          }
+          .color-hover, .white-hover, .black-hover {
+            position: absolute;
+            top: 0;
+            left: -5%;
+            bottom: 0;
+            right: 105%;
+          }
+           .black-hover{
+             z-index: 1;
+             right: 0;
+             background: #2e2e2e;
+           }
+          .white-hover {
+            z-index: 3;
+            background: white;
+          }
+          .color-hover {
+            left: -10%;
+            right: 110%;
+            z-index: 2;
+            background: #1FF3D3;
+          }
+        }
+        &.second-line {
+          .color-hover {
+            background: #72F21C;
+          }
+        }
+        &.third-line {
+          .color-hover {
+            background: #F37421;
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" id="Слой_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="15 -15 180 180"
+	 xml:space="preserve">
+<path fill="#FFFFFF" stroke="#12352E" stroke-width="4" stroke-linecap="round" stroke-dasharray="408.2" stroke-dashoffset="308" d="
+	M18,126c0-35.9,29.1-65,65-65"/>
+<path fill="none" d="M75,95h58c6.6,0,12,5.4,12,12v10c0,6.6-5.4,12-12,12H75c-6.6,0-12-5.4-12-12v-10C63,100.4,68.4,95,75,95z"/>
+<g>
+	<polygon fill="#72F21C" points="102.6,55.5 107,55.5 107,55.5 	"/>
+	<path fill="none" d="M121,84v58c0,6.6-5.4,12-12,12H99c-6.6,0-12-5.4-12-12V84c0-6.6,5.4-12,12-12h10C115.6,72,121,77.4,121,84z"/>
+	<path fill="none" stroke="#1FF3D3" stroke-width="2" d="M105,79L105,79c0,0,0,2.2,0,5v55c0,2.8,0,5,0,5l0,0c0,0,0-2.2,0-5V84
+		C105,81.2,105,79,105,79z"/>
+	<line fill="none" stroke="#1FF3D3" stroke-width="2" stroke-miterlimit="10" x1="95" y1="93" x2="95" y2="93"/>
+	<polyline fill="none" points="87,85 92.7,85 98.3,85 104,85 109.7,85 115.3,85 121,85 	"/>
+	<line fill="none" stroke="#72F21C" stroke-width="2" stroke-miterlimit="10" x1="87" y1="139" x2="87" y2="139"/>
+	<line fill="none" stroke="#72F21C" stroke-width="2" stroke-miterlimit="10" x1="98" y1="85" x2="98" y2="85"/>
+	<line fill="none" stroke="#72F21C" stroke-width="2" stroke-miterlimit="10" x1="110" y1="85" x2="110" y2="85"/>
+</g>
+<image width="151" height="194" xlink:href="74C40DC12233CC44.png"  transform="matrix(1 0 0 1 13 -17)">
+</image>
+<line fill="none" stroke="#1FF3D3" stroke-width="2" x1="73" y1="108" x2="73" y2="108"/>
+<line fill="none" stroke="#1FF3D3" stroke-width="2" x1="73" y1="115" x2="73" y2="115"/>
+<line fill="none" stroke="#1FF3D3" stroke-width="2" x1="73" y1="122" x2="73" y2="122"/>
+<rect x="125" y="102" fill="#1FF3D3" width="0" height="27"/>
+<circle fill="#1FF3D3" cx="73.9" cy="86.5" r="0"/>
+<circle fill="#1FF3D3" cx="80.9" cy="86.5" r="0"/>
+<circle fill="#1FF3D3" cx="87.9" cy="86.5" r="0"/>
+<path fill="none" stroke="#F37421" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="37.1673" stroke-dashoffset="37" d="
+	M102.7,84.9c0,0-8.7-3.7-7.2-9.8c1.7-7,10.9-4,12.4-9.3c1.4-4.8-2.6-6.4-2.6-6.4"/>
+<path id="_x33_3234234234" fill="#FFFFFF" stroke="#1E6658" stroke-width="2" stroke-linecap="round" stroke-dasharray="408.2" stroke-dashoffset="308" d="
+	M80.9,61C39,61,18,94.2,18,126"/>
+</svg>
